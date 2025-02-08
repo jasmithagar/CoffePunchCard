@@ -18,6 +18,7 @@
 		268A8C802D573EE4001C0C78 /* GroundUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C7F2D573EE4001C0C78 /* GroundUpView.swift */; };
 		268A8C822D573F25001C0C78 /* CorCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C812D573F25001C0C78 /* CorCoffeeView.swift */; };
 		268A8C842D573F41001C0C78 /* ChicagoFrenchPressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C832D573F41001C0C78 /* ChicagoFrenchPressView.swift */; };
+		312F5DAC2D57C679006E2435 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F5DAB2D57C679006E2435 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		268A8C7F2D573EE4001C0C78 /* GroundUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundUpView.swift; sourceTree = "<group>"; };
 		268A8C812D573F25001C0C78 /* CorCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorCoffeeView.swift; sourceTree = "<group>"; };
 		268A8C832D573F41001C0C78 /* ChicagoFrenchPressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoFrenchPressView.swift; sourceTree = "<group>"; };
+		312F5DAB2D57C679006E2435 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				268A8C472D56F9CF001C0C78 /* CoffePunchCardApp.swift */,
+				312F5DAB2D57C679006E2435 /* LoginView.swift */,
 				268A8C492D56F9CF001C0C78 /* ContentView.swift */,
 				268A8C812D573F25001C0C78 /* CorCoffeeView.swift */,
 				268A8C7F2D573EE4001C0C78 /* GroundUpView.swift */,
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				312F5DAC2D57C679006E2435 /* LoginView.swift in Sources */,
 				268A8C802D573EE4001C0C78 /* GroundUpView.swift in Sources */,
 				268A8C822D573F25001C0C78 /* CorCoffeeView.swift in Sources */,
 				268A8C842D573F41001C0C78 /* ChicagoFrenchPressView.swift in Sources */,
