@@ -10,28 +10,29 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-            VStack(alignment: .leading) {
-                Text("1")
-            }
-            // aligns views to the left (L to R)
-
             VStack(alignment: .center) {
-                Text("2")
+                
+                NavigationStack {
+                    NavigationLink(destination: SecondView()) {
+                        Text("Ground Up")
+                    }
+                    .buttonStyle(.borderedProminent)
+                    NavigationStack {
+                        NavigationLink(destination: ThirdView()) {
+                            Text("Cor Coffee")
+                        }
+                        .buttonStyle(.borderedProminent)
+                    }
+                }
             }
-            // aligns views in the middle (default)
-
-            VStack(alignment: .trailing) {
-                Text("3")
-            }
-            // aligns views to the right (R to L)
+            
         }
+        
         .padding()
     }
 }
+
+
 
 
 

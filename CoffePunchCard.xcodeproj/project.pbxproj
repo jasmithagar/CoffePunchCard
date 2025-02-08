@@ -14,6 +14,9 @@
 		268A8C592D56F9D1001C0C78 /* CoffePunchCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C582D56F9D1001C0C78 /* CoffePunchCardTests.swift */; };
 		268A8C632D56F9D1001C0C78 /* CoffePunchCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C622D56F9D1001C0C78 /* CoffePunchCardUITests.swift */; };
 		268A8C652D56F9D1001C0C78 /* CoffePunchCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C642D56F9D1001C0C78 /* CoffePunchCardUITestsLaunchTests.swift */; };
+		268A8C722D571918001C0C78 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C712D571918001C0C78 /* SecondView.swift */; };
+		268A8C7A2D572471001C0C78 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C792D572471001C0C78 /* ThirdView.swift */; };
+		268A8C7C2D572692001C0C78 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268A8C7B2D572692001C0C78 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		268A8C5E2D56F9D1001C0C78 /* CoffePunchCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffePunchCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		268A8C622D56F9D1001C0C78 /* CoffePunchCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffePunchCardUITests.swift; sourceTree = "<group>"; };
 		268A8C642D56F9D1001C0C78 /* CoffePunchCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffePunchCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		268A8C712D571918001C0C78 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		268A8C792D572471001C0C78 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		268A8C7B2D572692001C0C78 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				268A8C472D56F9CF001C0C78 /* CoffePunchCardApp.swift */,
 				268A8C492D56F9CF001C0C78 /* ContentView.swift */,
+				268A8C7B2D572692001C0C78 /* Storyboard.storyboard */,
+				268A8C712D571918001C0C78 /* SecondView.swift */,
+				268A8C792D572471001C0C78 /* ThirdView.swift */,
 				268A8C4B2D56F9D1001C0C78 /* Assets.xcassets */,
 				268A8C4D2D56F9D1001C0C78 /* Preview Content */,
 			);
@@ -233,6 +242,7 @@
 			files = (
 				268A8C4F2D56F9D1001C0C78 /* Preview Assets.xcassets in Resources */,
 				268A8C4C2D56F9D1001C0C78 /* Assets.xcassets in Resources */,
+				268A8C7C2D572692001C0C78 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268A8C7A2D572471001C0C78 /* ThirdView.swift in Sources */,
+				268A8C722D571918001C0C78 /* SecondView.swift in Sources */,
 				268A8C4A2D56F9CF001C0C78 /* ContentView.swift in Sources */,
 				268A8C482D56F9CF001C0C78 /* CoffePunchCardApp.swift in Sources */,
 			);
