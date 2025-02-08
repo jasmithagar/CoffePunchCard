@@ -14,10 +14,10 @@
 		268A8C592D56F9D1001C0C78 /* CoffePunchCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C582D56F9D1001C0C78 /* CoffePunchCardTests.swift */; };
 		268A8C632D56F9D1001C0C78 /* CoffePunchCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C622D56F9D1001C0C78 /* CoffePunchCardUITests.swift */; };
 		268A8C652D56F9D1001C0C78 /* CoffePunchCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C642D56F9D1001C0C78 /* CoffePunchCardUITestsLaunchTests.swift */; };
-		268A8C7C2D572692001C0C78 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268A8C7B2D572692001C0C78 /* Storyboard.storyboard */; };
 		268A8C802D573EE4001C0C78 /* GroundUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C7F2D573EE4001C0C78 /* GroundUpView.swift */; };
 		268A8C822D573F25001C0C78 /* CorCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C812D573F25001C0C78 /* CorCoffeeView.swift */; };
 		268A8C842D573F41001C0C78 /* ChicagoFrenchPressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C832D573F41001C0C78 /* ChicagoFrenchPressView.swift */; };
+		268A8C882D57FBD5001C0C78 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268A8C872D57FBD5001C0C78 /* Launch Screen.storyboard */; };
 		312F5DAC2D57C679006E2435 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F5DAB2D57C679006E2435 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,10 +49,10 @@
 		268A8C5E2D56F9D1001C0C78 /* CoffePunchCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffePunchCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		268A8C622D56F9D1001C0C78 /* CoffePunchCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffePunchCardUITests.swift; sourceTree = "<group>"; };
 		268A8C642D56F9D1001C0C78 /* CoffePunchCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffePunchCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		268A8C7B2D572692001C0C78 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		268A8C7F2D573EE4001C0C78 /* GroundUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundUpView.swift; sourceTree = "<group>"; };
 		268A8C812D573F25001C0C78 /* CorCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorCoffeeView.swift; sourceTree = "<group>"; };
 		268A8C832D573F41001C0C78 /* ChicagoFrenchPressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoFrenchPressView.swift; sourceTree = "<group>"; };
+		268A8C872D57FBD5001C0C78 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		312F5DAB2D57C679006E2435 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,8 +111,8 @@
 				268A8C7F2D573EE4001C0C78 /* GroundUpView.swift */,
 				268A8C832D573F41001C0C78 /* ChicagoFrenchPressView.swift */,
 				268A8C4B2D56F9D1001C0C78 /* Assets.xcassets */,
-				268A8C7B2D572692001C0C78 /* Storyboard.storyboard */,
 				268A8C4D2D56F9D1001C0C78 /* Preview Content */,
+				268A8C872D57FBD5001C0C78 /* Launch Screen.storyboard */,
 			);
 			path = CoffePunchCard;
 			sourceTree = "<group>";
@@ -246,9 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268A8C882D57FBD5001C0C78 /* Launch Screen.storyboard in Resources */,
 				268A8C4F2D56F9D1001C0C78 /* Preview Assets.xcassets in Resources */,
 				268A8C4C2D56F9D1001C0C78 /* Assets.xcassets in Resources */,
-				268A8C7C2D572692001C0C78 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoffePunchCard/Preview Content\"";
@@ -442,6 +443,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,6 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoffePunchCard/Preview Content\"";
@@ -470,6 +473,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

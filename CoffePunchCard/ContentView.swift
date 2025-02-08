@@ -14,6 +14,7 @@ struct CoffeeShop: Identifiable {
 }
 
 struct ContentView: View {
+    
     let coffeeShops = [
         CoffeeShop(name: "GroundUp", destinationView: AnyView(GroundUpView())),
         CoffeeShop(name: "CorCoffee", destinationView: AnyView(CorCoffeeView())),
@@ -22,52 +23,43 @@ struct ContentView: View {
         CoffeeShop(name: "Tim Hortons", destinationView: AnyView(GroundUpView()))
     ]
 
-        var body: some View {
+    var body: some View {
+        ZStack {
+            Color.cyan.ignoresSafeArea()
             NavigationView {
-                
-                    List(coffeeShops) { shop in
-                        NavigationLink(destination: shop.destinationView){
+                List(coffeeShops) { shop in
+                    NavigationLink(destination: shop.destinationView) {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 25)
+                                .fill(Color.cyan)
+                                .opacity(0.5)
+                                .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
+                                //.shadow(color: Color.white.opacity(0.7), radius: 10, x: -5, y: -5)
                             
-                            ZStack {
+                            VStack {
+                                let imageName = shop.name + "Logo"
+                                Image(imageName)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .clipShape(Circle())
+                                    .frame(width: UIScreen.main.bounds.width * 0.7, height: UIScreen.main.bounds.height * 0.1)
                                 
-                                RoundedRectangle(cornerRadius: 25)
-                                    .fill(Color.cyan)
-                                    .opacity(0.5)
-//                                    .frame(width: UIScreen.main.bounds.width * 0.85, height: UIScreen.main.bounds.height * 0.13)
-                                    .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
-                                    .shadow(color: Color.white.opacity(0.7), radius: 10, x: -5, y: -5)
-                                
-                                VStack {
-                                    let imageName = shop.name + "Logo"
-                                    Image(imageName)
-                                        .resizable()
-                                        .scaledToFit()
-                                        .clipShape(Circle())
-                                        .frame(width: UIScreen.main.bounds.width * 0.7, height: UIScreen.main.bounds.height * 0.1)
-                                    
-                                    Text(shop.name)
-                                        .font(.title)
-                                        .fontWeight(.semibold)
-                                        .foregroundColor(Color.black)
-                                        .multilineTextAlignment(.center)
-                                }
-                                
-                                .padding()
+                                Text(shop.name)
+                                    .font(.title)
+                                    .fontWeight(.semibold)
+                                    .foregroundColor(Color.black)
+                                    .multilineTextAlignment(.center)
                             }
+                            .padding()
                         }
                     }
-                .navigationBarTitle(
-                    Text("Coffee Shops"))
-
+                }
+                .navigationBarTitle(Text("Coffee Shops"))
+                .background(Color.pink) // Ensure the list has a transparent background
             }
-            .background(Color.pink)
-            
         }
+    }
 }
-
-
-
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
