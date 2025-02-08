@@ -16,11 +16,11 @@ struct CoffeeShop: Identifiable {
 struct ContentView: View {
     
     let coffeeShops = [
-        CoffeeShop(name: "GroundUp", destinationView: AnyView(GroundUpView())),
-        CoffeeShop(name: "CorCoffee", destinationView: AnyView(CorCoffeeView())),
-        CoffeeShop(name: "Blue Bottle Coffee", destinationView: AnyView(GroundUpView())),
-        CoffeeShop(name: "Peet's Coffee", destinationView: AnyView(GroundUpView())),
-        CoffeeShop(name: "Tim Hortons", destinationView: AnyView(GroundUpView()))
+        CoffeeShop(name: "Demitasse", destinationView: AnyView(DemitasseView())),
+        CoffeeShop(name: "Cor Coffee", destinationView: AnyView(CorCoffeeView())),
+        CoffeeShop(name: "Kiubo", destinationView: AnyView(KiuboView())),
+        CoffeeShop(name: "TwoShades", destinationView: AnyView(TwoShadesView())),
+        CoffeeShop(name: "Tasa", destinationView: AnyView(TasaView()))
     ]
 
     var body: some View {

@@ -1,5 +1,5 @@
 //
-//  CorCoffeeView.swift
+//  GathersView.swift
 //  CoffePunchCard
 //
 //  Created by Jasmitha G on 2/8/25.
@@ -7,22 +7,21 @@
 
 import SwiftUI
 
-struct CorCoffeeView: View {
+struct GathersView: View {
     var body: some View {
         ZStack{
-            Image("Cor")
+            Image("Gathers")
                 .resizable()
             VStack{
                 
             }
         }
-        
+
     }
 }
 
-
-struct CorCoffeeView_Previews: PreviewProvider {
+struct GathersView_Previews: PreviewProvider {
     static var previews: some View {
-        CorCoffeeView()
+        GathersView()
     }
 }

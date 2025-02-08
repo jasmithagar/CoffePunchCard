@@ -16,8 +16,12 @@
 		268A8C652D56F9D1001C0C78 /* CoffePunchCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C642D56F9D1001C0C78 /* CoffePunchCardUITestsLaunchTests.swift */; };
 		268A8C802D573EE4001C0C78 /* GroundUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C7F2D573EE4001C0C78 /* GroundUpView.swift */; };
 		268A8C822D573F25001C0C78 /* CorCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C812D573F25001C0C78 /* CorCoffeeView.swift */; };
-		268A8C842D573F41001C0C78 /* ChicagoFrenchPressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C832D573F41001C0C78 /* ChicagoFrenchPressView.swift */; };
 		268A8C882D57FBD5001C0C78 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268A8C872D57FBD5001C0C78 /* Launch Screen.storyboard */; };
+		268A8C8E2D5808D6001C0C78 /* GathersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C8D2D5808D6001C0C78 /* GathersView.swift */; };
+		268A8C902D580902001C0C78 /* KiuboView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C8F2D580902001C0C78 /* KiuboView.swift */; };
+		268A8C922D580922001C0C78 /* TwoShadesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C912D580922001C0C78 /* TwoShadesView.swift */; };
+		268A8C942D58093B001C0C78 /* TasaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C932D58093B001C0C78 /* TasaView.swift */; };
+		268A8C982D58096E001C0C78 /* DemitasseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A8C972D58096E001C0C78 /* DemitasseView.swift */; };
 		312F5DAC2D57C679006E2435 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F5DAB2D57C679006E2435 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,8 +55,12 @@
 		268A8C642D56F9D1001C0C78 /* CoffePunchCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffePunchCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		268A8C7F2D573EE4001C0C78 /* GroundUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundUpView.swift; sourceTree = "<group>"; };
 		268A8C812D573F25001C0C78 /* CorCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorCoffeeView.swift; sourceTree = "<group>"; };
-		268A8C832D573F41001C0C78 /* ChicagoFrenchPressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoFrenchPressView.swift; sourceTree = "<group>"; };
 		268A8C872D57FBD5001C0C78 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		268A8C8D2D5808D6001C0C78 /* GathersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GathersView.swift; sourceTree = "<group>"; };
+		268A8C8F2D580902001C0C78 /* KiuboView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiuboView.swift; sourceTree = "<group>"; };
+		268A8C912D580922001C0C78 /* TwoShadesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoShadesView.swift; sourceTree = "<group>"; };
+		268A8C932D58093B001C0C78 /* TasaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaView.swift; sourceTree = "<group>"; };
+		268A8C972D58096E001C0C78 /* DemitasseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemitasseView.swift; sourceTree = "<group>"; };
 		312F5DAB2D57C679006E2435 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,8 +116,12 @@
 				312F5DAB2D57C679006E2435 /* LoginView.swift */,
 				268A8C492D56F9CF001C0C78 /* ContentView.swift */,
 				268A8C812D573F25001C0C78 /* CorCoffeeView.swift */,
+				268A8C8D2D5808D6001C0C78 /* GathersView.swift */,
+				268A8C8F2D580902001C0C78 /* KiuboView.swift */,
+				268A8C912D580922001C0C78 /* TwoShadesView.swift */,
+				268A8C932D58093B001C0C78 /* TasaView.swift */,
+				268A8C972D58096E001C0C78 /* DemitasseView.swift */,
 				268A8C7F2D573EE4001C0C78 /* GroundUpView.swift */,
-				268A8C832D573F41001C0C78 /* ChicagoFrenchPressView.swift */,
 				268A8C4B2D56F9D1001C0C78 /* Assets.xcassets */,
 				268A8C4D2D56F9D1001C0C78 /* Preview Content */,
 				268A8C872D57FBD5001C0C78 /* Launch Screen.storyboard */,
@@ -276,9 +288,13 @@
 				312F5DAC2D57C679006E2435 /* LoginView.swift in Sources */,
 				268A8C802D573EE4001C0C78 /* GroundUpView.swift in Sources */,
 				268A8C822D573F25001C0C78 /* CorCoffeeView.swift in Sources */,
-				268A8C842D573F41001C0C78 /* ChicagoFrenchPressView.swift in Sources */,
+				268A8C922D580922001C0C78 /* TwoShadesView.swift in Sources */,
+				268A8C982D58096E001C0C78 /* DemitasseView.swift in Sources */,
+				268A8C8E2D5808D6001C0C78 /* GathersView.swift in Sources */,
 				268A8C4A2D56F9CF001C0C78 /* ContentView.swift in Sources */,
 				268A8C482D56F9CF001C0C78 /* CoffePunchCardApp.swift in Sources */,
+				268A8C902D580902001C0C78 /* KiuboView.swift in Sources */,
+				268A8C942D58093B001C0C78 /* TasaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

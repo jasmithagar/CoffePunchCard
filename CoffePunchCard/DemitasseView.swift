@@ -1,5 +1,5 @@
 //
-//  CorCoffeeView.swift
+//  DemitasseView.swift
 //  CoffePunchCard
 //
 //  Created by Jasmitha G on 2/8/25.
@@ -7,22 +7,19 @@
 
 import SwiftUI
 
-struct CorCoffeeView: View {
+struct DemitasseView: View {
     var body: some View {
         ZStack{
-            Image("Cor")
+            Image("Demitasse")
                 .resizable()
             VStack{
-                
             }
         }
-        
     }
 }
 
-
-struct CorCoffeeView_Previews: PreviewProvider {
+struct DemitasseView_Previews: PreviewProvider {
     static var previews: some View {
-        CorCoffeeView()
+        DemitasseView()
     }
 }
