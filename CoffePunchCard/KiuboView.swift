@@ -10,6 +10,7 @@ import SwiftUI
 struct KiuboView: View {
     var body: some View {
         ZStack{
+            Color.black.ignoresSafeArea()
             Image("Kiubo")
                 .resizable()
             VStack{

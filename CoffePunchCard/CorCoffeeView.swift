@@ -10,6 +10,7 @@ import SwiftUI
 struct CorCoffeeView: View {
     var body: some View {
         ZStack{
+            Color.black.ignoresSafeArea()
             Image("Cor")
                 .resizable()
             VStack{

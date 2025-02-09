@@ -10,6 +10,7 @@ import SwiftUI
 struct TasaView: View {
     var body: some View {
         ZStack{
+            Color.black.ignoresSafeArea()
             Image("Tasa")
                 .resizable()
             VStack{

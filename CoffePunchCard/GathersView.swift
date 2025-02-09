@@ -10,6 +10,7 @@ import SwiftUI
 struct GathersView: View {
     var body: some View {
         ZStack{
+            Color.white.ignoresSafeArea()
             Image("Gathers")
                 .resizable()
             VStack{
